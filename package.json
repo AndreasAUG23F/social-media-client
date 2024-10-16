@@ -4,7 +4,8 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "npm run lint && npm run format",
+    "unit-test": "jest",
     "format": "prettier --write src/js/**/*.js",
     "lint": "eslint src/js/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
