@@ -4,7 +4,7 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "jest",
     "format": "prettier --write src/js/**/*.js",
     "lint": "eslint src/js/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
