@@ -4,6 +4,7 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
+    "test-all": "npm run test && npm run unit-test && npm run test-e2e-cli",
     "test-e2e": "cypress open",
     "test-e2e-cli": "cypress run",
     "test": "npm run lint && npm run format",
