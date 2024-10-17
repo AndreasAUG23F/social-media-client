@@ -1,3 +1,8 @@
+## Workspace pre commit
+
+Configured ESlint & Prettier.
+Required to pass to commit.
+
 ## Jest Unit Testing
 
 Implemented unit tests using Jest for the login functionality:
